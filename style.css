@@ -353,7 +353,7 @@
     display: inline-block;
 }
 .flat-desc {
-    background: #1f223e none repeat scroll 0 0;
+    background: #002b52 none repeat scroll 0 0;
     color: #bababa;
     padding: 15px 0;
     position: relative;
@@ -432,7 +432,7 @@
 ----------------------------------- */
 
 .single-agent {
-    border-bottom: 4px solid #1f223e;
+    border-bottom: 4px solid #002b52;
     margin-bottom: 60px;
     overflow: hidden;
     position: relative;
@@ -630,7 +630,7 @@
     transform: scale(1.1);
 }
 .blog-info {
-    border-bottom: 4px solid #1f223e;
+    border-bottom: 4px solid #002b52;
     padding: 15px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -639,7 +639,7 @@
     position: relative;
 }
 .post-title-time:before {
-    background: #1f223e;
+    background: #002b52;
     content: "";
     height: 45px;
     left: -15px;
@@ -838,7 +838,7 @@
     width: 80px;
 }
 .counter-item-2 > p {
-    color: #1f223e;
+    color: #002b52;
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
@@ -998,7 +998,7 @@
     transition: all 0.3s ease 0s;
 }
 .submit-btn-1:hover {
-    background: #1f223e none repeat scroll 0 0;
+    background: #002b52 none repeat scroll 0 0;
 }
 /* -----------------------------------
   26. widget
@@ -1064,8 +1064,8 @@
     color: #606060;
 }
 .widget-search-property .btn-hover-1:hover {
-    background: #1f223e none repeat scroll 0 0;
-    border: 1px solid #1f223e;
+    background: #002b52 none repeat scroll 0 0;
+    border: 1px solid #002b52;
     color: #fff;
 }
 /*widget-featured-property*/

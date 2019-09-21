@@ -112,7 +112,7 @@ h6,
 .h5,
 .h6 {
     font-family: 'Raleway', sans-serif;
-    color: #1f223e;
+    color: #002b52;
     -webkit-font-variant-ligatures: common-ligatures;
             font-variant-ligatures: common-ligatures;
     margin-top: 0;
@@ -260,7 +260,7 @@ label {
   color: #fff;
 }
 span.tooltip-content {
-  color: #1f223e;
+  color: #002b52;
   cursor: help;
   font-size: 18px;
   font-weight: 400;
@@ -868,7 +868,7 @@ textarea:focus {
  **************************************/
 /*colored background*/
 .bg-gray{ background: #f5f5f5; }
-.bg-blue{ background: #1f223e; }
+.bg-blue{ background: #002b52; }
 
 .bg-theme { background: #9d8453; }
 .bg-black { background: #222222; }
