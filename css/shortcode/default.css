@@ -930,6 +930,7 @@ textarea:focus {
 .bg-8 { background: url(../../images/bg/8.jpg);}
 .bg-9 { background: url(../../images/bg/9.jpg);}
 .bg-10 { background: url(../../images/bg/10.jpg);}
+.featured-banner { background: url(../../images/bg/featured.jpg);}
 
 .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10{
   background-attachment: fixed;
