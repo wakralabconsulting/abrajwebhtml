@@ -1378,9 +1378,9 @@
 }
 .contact-address-info > span {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 24px;
 }
 .contact-address > li:before {
     background: #c2c2c2 none repeat scroll 0 0;
