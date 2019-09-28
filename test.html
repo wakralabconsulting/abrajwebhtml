@@ -2,30 +2,44 @@
 
 
 .main-cover {
-    width: 65%;
-    height: 662px;
-    position: relative;
-    margin: -60px auto 0;
-    z-index: 1;
-    background-color: brown;
+  position: absolute;
+  z-index: 1;
+  background-color: brown;
+  height: 50%;
 }
 
 #dp {
     width: 60%;
-    position: absolute;
-    left: 55%;
-    margin: 0 -20% 20% 0;
+    position: relative;
+    left: 18%;
     z-index: 2;
-    margin-top: 15%;
+    margin-top: -27%;
 }
 
 .dp-pic {
-  width: 100%;
+  width: 30%;
+  position: relative;
+  margin: 20%;
+  margin-left:80%;
+}
+.text-block{
+  color:#fff;
+  vertical-align:center;
+  padding-top:40%;
+  height:100%;
 }
 </style>
 
-<div class="main-cover">
-  <div id="dp">
-    <img class="dp-pic" src="http://demo.devitems.com/sheltek-preview/sheltek/images/others/contact-2.jpg">
+<div  class="col-sm-6 center">
+  <img class="img-responsive" src="http://demo.devitems.com/sheltek-preview/sheltek/images/others/contact-2.jpg">
+  <div id="dp" class="col-sm-3 main-cover">
+    <span class="text-block">dfsfsdff</span>
   </div>
 </div>
+
+<!-- <div class="main-cover col-sm-6 center">
+  <img class="dp-pic" src="http://demo.devitems.com/sheltek-preview/sheltek/images/others/contact-2.jpg">
+  <div id="dp" class="col-sm-3 centerMode">
+    dfsfsdff
+  </div>
+</div> -->
