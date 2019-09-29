@@ -1,5 +1,5 @@
 /* -----------------------------------
-  Template Name: Sheltek - Real Estate HTML Template 
+  Template Name: Sheltek - Real Estate HTML Template
 
   NOTE: This is Header style file. All Header related style included in this file.
 
@@ -12,12 +12,13 @@
 
 /*company-info*/
 .company-info {
-  padding: 39px 0;
+  padding: 27px 0;
 }
 .company-info-item {
     float: left;
     overflow: hidden;
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
 }
 .header-icon {
     float: left;
@@ -25,7 +26,8 @@
 }
 .header-info {
     float: left;
-    width: 82%;
+    /* width: 82%; */
+    width: 100%;
 }
 .company-info .company-info-item:nth-child(2) {
   padding-left: 5%;
@@ -115,6 +117,19 @@
   padding: 15px 0;
   text-transform: uppercase;
 }
+
+/*company info header menu */
+.header-info .main-menu > li + li {
+  margin-left: 15px;
+}
+.header-info .main-menu > li > a {
+  color: #1f223e;
+  display: block;
+  font-size: 12px;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+/*company info header menu ends */
 .main-menu li {
     display: inline-block;
     position: relative;
@@ -123,7 +138,7 @@
 .drop-menu > li:hover > a,
 .single-mega-item > li:hover > a {
 	color: #95c41f;
-} 
+}
 /*drop-menu Style*/
 .drop-menu {
   background: #ffffff none repeat scroll 0 0;
@@ -192,7 +207,7 @@
 }
 .single-mega-item li:last-child{
 	border-bottom: 0px solid #000;
-} 
+}
 .single-mega-item li a{
   padding: 13px 0px;
 	display: block;
@@ -222,6 +237,7 @@
   margin: auto;
   background: rgba(31, 34, 62, 0.9) none repeat scroll 0 0;
   transition: all 0.3s ease 0s;
+  display: none;
 }
 .transparent-header .main-menu > li > a{
   color: #fff;
@@ -242,6 +258,8 @@
   width: 100%;
   background: rgba(255,255,255,0.8);
   box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  /*for block*/
+  display: block;
 }
 .sticky .main-menu > li > a {
   color: #303030;
@@ -264,6 +282,3 @@
   padding: 10px 0;
   width: 70px;
 }
-
-
-
